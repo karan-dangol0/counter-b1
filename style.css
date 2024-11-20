@@ -1,0 +1,38 @@
+body{
+    background: rgba(135, 206, 250, .5);
+    text-align: center;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+    
+}
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 0px #000, -1px 0px #000, 0px 1px #000, 0px -1px #000;
+
+}
+h2{
+    font-size: 77px;
+    color: white;
+     text-shadow: 1px 0px #000, -1px 0px #000, 0px 1px #000, 0px -1px #000;
+
+    
+}
+
+.increase, .decrease, .reset{
+    border:  4px solid black;
+    padding: 10px; 
+    background: transparent;
+    margin-left: 30px;
+}
+
+.increase:active, .decrease:active, .reset:active{
+    font-size: 13px;
+}
+
