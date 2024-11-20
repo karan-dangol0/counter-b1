@@ -15,13 +15,14 @@ h1{
     font-size: 50px;
     color: white;
     text-shadow: 1px 0px #000, -1px 0px #000, 0px 1px #000, 0px -1px #000;
+    transition: all  0.3s ease;
 
 }
 h2{
     font-size: 77px;
     color: white;
      text-shadow: 1px 0px #000, -1px 0px #000, 0px 1px #000, 0px -1px #000;
-
+    transition: all  0.3s ease;
     
 }
 
